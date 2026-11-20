@@ -1,0 +1,8 @@
+id,company,category,subcategory,question_en,question_km,answer_en,answer_km,keywords_en,keywords_km,source_document,intent_id
+m1,MAQSU,synthetic,baseline,What is the test label?,តើស្លាកសាកល្បងជាអ្វី?,Synthetic label A.,ស្លាកសាកល្បង ក។,label,ស្លាក,SYNTHETIC_ONLY,fixture_label
+m2,MAQSU,synthetic,baseline,Please repeat the test label.,សូមប្រាប់ស្លាកសាកល្បង។,Synthetic label A.,ស្លាកសាកល្បង ក។,label,ស្លាក,SYNTHETIC_ONLY,fixture_label
+m3,CLOSO,synthetic,baseline,What is the test label?,តើស្លាកសាកល្បងជាអ្វី?,Synthetic label A.,ស្លាកសាកល្បង ក។,label,ស្លាក,SYNTHETIC_ONLY,fixture_label
+m4,BOTH,synthetic,shared,Which shared test label?,,Synthetic shared label.,,,,SYNTHETIC_ONLY,fixture_shared
+m5,UNKNOWN,synthetic,unknown,What is the unknown test label?,,Synthetic unresolved label.,,,,SYNTHETIC_ONLY,fixture_unknown
+m6,MAQSU,synthetic,baseline,What is the test label?,តើស្លាកសាកល្បងជាអ្វី?,Synthetic label B.,ស្លាកសាកល្បង ខ។,label,ស្លាក,SYNTHETIC_ONLY,fixture_label
+m7,MAQSU,synthetic,empty,Missing answer fixture?,,,,,,SYNTHETIC_ONLY,fixture_empty

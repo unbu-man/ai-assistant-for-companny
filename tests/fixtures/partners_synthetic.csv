@@ -1,0 +1,7 @@
+id,company,category,subcategory,question_en,question_km,answer_en,answer_km,keywords_en,keywords_km,source_document,intent_id,source_section,confidence,status
+p1,FALCORA,synthetic,baseline,What is fixture C?,តើស្លាកសាកល្បងជាអ្វី?,Synthetic label C.,ស្លាកសាកល្បង គ។,fixture,ស្លាក,SYNTHETIC_ONLY,fixture_c,fixture_section,0.99,NEEDS_REVIEW
+p2,ClickHR,synthetic,baseline,What is fixture D?,តើស្លាកសាកល្បងជាអ្វី?,Synthetic label D.,ស្លាកសាកល្បង ឃ។,fixture,ស្លាក,SYNTHETIC_ONLY,fixture_d,fixture_section,1.0,APPROVED
+p3,GIANTBROTHER,synthetic,baseline,What is fixture E?,តើស្លាកសាកល្បងជាអ្វី?,Synthetic label E.,ស្លាកសាកល្បង ង។,fixture,ស្លាក,SYNTHETIC_ONLY,fixture_e,fixture_section,0.95,NEEDS_REVIEW
+p4,GIANTFOCUS,synthetic,baseline,What is fixture F?,តើស្លាកសាកល្បងជាអ្វី?,Synthetic label F.,ស្លាកសាកល្បង ច។,fixture,ស្លាក,SYNTHETIC_ONLY,fixture_f,fixture_section,0.98,NEEDS_REVIEW
+p4,GIANTFOCUS,synthetic,baseline,What is fixture F?,តើស្លាកសាកល្បងជាអ្វី?,Synthetic label F.,ស្លាកសាកល្បង ច។,fixture,ស្លាក,SYNTHETIC_ONLY,fixture_f,fixture_section,0.98,NEEDS_REVIEW
+p6,ClickHR,synthetic,mixed,តើ test label ជាអ្វី?,,Synthetic mixed fixture.,,,,SYNTHETIC_ONLY,fixture_mixed,fixture_section,0.2,NEEDS_REVIEW

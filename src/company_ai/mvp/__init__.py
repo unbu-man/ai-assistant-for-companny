@@ -1,0 +1,1 @@
+"""Local bilingual customer assistant."""

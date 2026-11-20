@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "six-company-customer-ai"
+version = "0.1.0"
+description = "Private, company-scoped Khmer and English knowledge preparation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+mvp = ["fastapi>=0.115,<1", "uvicorn>=0.34,<1", "psycopg>=3.2,<4", "httpx>=0.28,<1"]
+
+[project.scripts]
+company-ai = "company_ai.cli:main"
+company-ai-mvp = "company_ai.mvp.manage:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"company_ai.mvp" = ["*.sql", "static/*"]

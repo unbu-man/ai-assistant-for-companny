@@ -1,0 +1,45 @@
+# Private inputs and generated artifacts (may contain personal/internal data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+!tests/fixtures/*.csv
+*.jsonl
+reports/
+exports/
+customer_data/
+logs/
+*.log
+hs_err_pid*
+replay_pid*
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*
+
+# Python, local environments, build and model caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+build/
+dist/
+.cache/
+models/
+*.safetensors
+*.onnx
+*.pt
+*.bin
+.DS_Store
